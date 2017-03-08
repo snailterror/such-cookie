@@ -1,0 +1,22 @@
+{
+
+  "compilerOptions" : {
+    "target": "es5",
+    "pretty": true,
+    "outDir": "./dist/",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": false
+  },
+
+  "files" : [
+    "./src/app.ts",
+    "./index.ts"
+  ],
+
+  "excluse" : ["node_modules"],
+  "compileOnSave": false
+
+}
